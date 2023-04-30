@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=McLaren&family=PT+Sans&family=PT+Sans+Caption:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=McLaren&family=PT+Sans&family=PT+Sans+Caption:wght@700&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+.container {
+  width: 1340px;
+  margin: 0px auto;
+}
+.header {
+  background-color: black;
+  padding: 50px 40px 120px 50px;
+  position: relative;
+}
+.navigations {
+  display: flex;
+  justify-content: space-between;
+}
+.nav {
+  width: 55%;
+}
+.nav_icons {
+  font-size: 42px;
+  color: white;
+}
+.profile_icon {
+  font-size: 59px;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+.default_profile_pic {
+  height: 86px;
+  width: 86px;
+  background-image: linear-gradient(to right, #9ff897, #c9ff56);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -33px;
+}
+.header_content {
+  margin-top: 65px;
+  width: 63%;
+  span {
+    color: white;
+  }
+}
+.title {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 61px;
+  line-height: 91.55px;
+  font-weight: 400;
+  margin: 0px 0px 5px 0px;
+  display: inline;
+}
+.online_shower{
+  font-size: 15px;
+  padding: 0px 0px 8px 30px;
+}
+.text {
+  color: white;
+  font-weight: lighter;
+  font-weight: 100;
+  font-size: 36.06px;
+  line-height: 54.09px;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding-bottom: 43px;
+}
+.ellepse_container {
+  width: 459px;
+  height: 355px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.ellipse {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 100% 0 0 0;
+  position: relative;
+}
+.stock_photography {
+  position: absolute;
+  bottom: -27px;
+  left: -30px;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .ellepse_container {
+    width: 360px;
+  }
+  .stock_photography {
+    left: 20px;
+    width: 342px;
+    height: 500px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .header_content{
+    width: 65%;
+  }
+  .online_shower{
+    padding: 0px 0px 5px 13px;
+  }
+  .title {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  .text {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .ellepse_container {
+    width: 250px;
+    height: 211px;
+  }
+  .stock_photography {
+    width: 251px;
+    height: 350px;
+    left: 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .header_content {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .header {
+    padding: 50px 20px 255px 20px;
+  }
+  .nav_icons {
+    font-size: 25px;
+  }
+  .default_profile_pic {
+    height: 55px;
+    width: 55px;
+    margin-top: -18px;
+  }
+  .profile_icon {
+    font-size: 32px;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 51px;
+  }
+  .text {
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 22px;
+    margin-top: 10px;
+  }
+  .stock_photography {
+    height: 265px;
+    width: 200px;
+    bottom: -15px;
+    left: 3px;
+  }
+  .ellepse_container {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 320px) and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .header_content {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .header {
+    padding: 50px 20px 255px 20px;
+  }
+  .nav {
+    width: 68%;
+  }
+  .nav_icons {
+    font-size: 20px;
+  }
+  .default_profile_pic {
+    height: 48px;
+    width: 48px;
+    margin-top: -18px;
+  }
+  .profile_icon {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .text {
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 22px;
+    margin-top: 10px;
+  }
+  .stock_photography {
+    height: 265px;
+    width: 197px;
+    bottom: -15px;
+    left: 3px;
+  }
+  .ellepse_container {
+    width: 200px;
+    height: 200px;
+  }
+}
