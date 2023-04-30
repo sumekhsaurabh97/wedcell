@@ -25,6 +25,7 @@ const SearchBox = () => {
         <FontAwesomeIcon
           icon={faSearch}
           className={styles.searchBox_icons}
+          style={{color :'black'}}
         ></FontAwesomeIcon>
       </div>
     </div>

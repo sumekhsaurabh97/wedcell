@@ -29,6 +29,10 @@
 }
 .searchBox_icons {
   font-size: 27px;
+  color: #797979;
+}
+.search{
+  // color: black;
 }
 .location_dropdown {
   display: flex;
@@ -128,7 +132,7 @@
   }
   .input_search {
     height: 60px;
-    flex-direction: column;
+    // flex-direction: column;
     padding: 9px 10px 0px 20px;
     ::placeholder {
       font-size: 18px;
@@ -146,5 +150,13 @@
   .search {
     height: 53px;
     width: 60px;
+  }
+}
+@media (min-width: 320px) and (max-width: 400px) {
+  .container{
+    width: 100%;
+  }
+  .input_search{
+    flex-direction: column;
   }
 }

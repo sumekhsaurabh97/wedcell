@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=McLaren&family=PT+Sans&family=PT+Sans+Caption:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=McLaren&family=PT+Sans&family=PT+Sans+Caption:wght@700&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap");
+
+@import "../../../styles/breakpoints";
+@import "../../../styles/variable";
+
 .container {
   width: 1340px;
   margin: 0px auto;
 }
 .header {
-  background-color: black;
+  background-color: $black-color;
   padding: 50px 40px 120px 50px;
   position: relative;
 }
