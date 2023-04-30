@@ -8,7 +8,7 @@ const SearchBox = () => {
   return (
     <div className={styles.input_search_container}>
       <div className={styles.input_search}>
-        <input type="text" placeholder="Event planning" />
+        <input type="text" placeholder="Event planning" id={styles.input}/>
         <div className={styles.location_dropdown}>
           <FontAwesomeIcon
             icon={faLocationDot}
